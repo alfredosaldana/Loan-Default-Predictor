@@ -203,6 +203,19 @@ The dataset consists of multiple files, each representing a different source of 
 In this project we primarily use `application_train.csv` to keep things manageable and to
 focus on core concepts. In a real production project you would join all these tables together.
 
+## Data Source
+
+This project uses the **Home Credit Default Risk** dataset from the Kaggle competition hosted by **Home Credit Group**.
+
+Source:
+https://www.kaggle.com/competitions/home-credit-default-risk
+
+The primary file used in this project is:
+
+- `application_train.csv` — 307,511 loan applications with 122 columns, including the binary target variable `TARGET`.
+
+Additional competition files include credit bureau history, previous applications, installment payments, POS/CASH balances, and credit-card balances.
+
 ### The Target Variable
 
 The column we want to predict is called `TARGET`:
